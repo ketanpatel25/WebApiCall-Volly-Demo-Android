@@ -1,0 +1,43 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.ketan.webapicallvollydemo"
+//        minSdkVersion 'MNC'
+        minSdkVersion 10
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+
+dependencies {
+
+
+        compile 'com.android.support:appcompat-v7:23.1.1'
+        compile 'com.mcxiaoke.volley:library:1.0.19'
+        compile 'me.dm7.barcodescanner:zxing:1.8.3'
+        compile 'com.github.gcacace:signature-pad:1.0.3'
+        compile 'com.android.support:design:23.1.1'
+
+        compile 'com.google.android.gms:play-services-maps:8.4.0'
+        compile 'com.google.android.gms:play-services:8.4.0'
+
+        compile 'com.nineoldandroids:library:2.4.0'
+        compile 'de.hdodenhof:circleimageview:2.0.0'
+        compile 'com.alexzh:circleimageview:1.1.2@aar'
+    }
+
+
+
+
+}

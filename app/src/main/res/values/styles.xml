@@ -1,0 +1,16 @@
+<resources>
+
+    <style name="Theme.Design_Ketan" parent="Base.Theme.DesignDemo">
+    </style>
+
+    <style name="Base.Theme.DesignDemo" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--<item name="colorPrimary">#3FBCC2</item>-->
+        <!--<item name="colorPrimaryDark">#3FBCC2</item>-->
+        <!--<item name="colorAccent">#FF4081</item>-->
+        <!--<item name="android:windowBackground">@color/window_background</item>-->
+        <!--<item name="android:actionButtonStyle">@style/MyActionButtonStyle</item>-->
+
+    </style>
+
+
+</resources>
